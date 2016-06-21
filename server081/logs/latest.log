@@ -1,0 +1,11 @@
+[02:17:37] [Server thread/INFO]: Starting minecraft server version 1.8.1
+[02:17:37] [Server thread/INFO]: Loading properties
+[02:17:37] [Server thread/INFO]: Default game type: SURVIVAL
+[02:17:37] [Server thread/INFO]: Generating keypair
+[02:17:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:17:37] [Server thread/INFO]: Using epoll channel type
+[02:17:37] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[02:17:37] [Server thread/WARN]: The exception was: java.io.IOException: Error during bind(...): Address already in use
+[02:17:37] [Server thread/WARN]: Perhaps a server is already running on that port?
+[02:17:37] [Server thread/INFO]: Stopping server
+[02:17:37] [Server Shutdown Thread/INFO]: Stopping server

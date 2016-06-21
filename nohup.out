@@ -1,0 +1,46 @@
+finding "minecraft-server"
+version 1.7.2 flat
+found!
+done!
+server found at 104.155.135.18
+ready to play!
+done
+[02:16:36] [Server thread/INFO]: Starting minecraft server version 1.8.1
+[02:16:36] [Server thread/INFO]: Loading properties
+[02:16:36] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.7.0_80]
+	at java.io.FileInputStream.read(FileInputStream.java:272) ~[?:1.7.0_80]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:273) ~[?:1.7.0_80]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334) ~[?:1.7.0_80]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:283) ~[?:1.7.0_80]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:325) ~[?:1.7.0_80]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:177) ~[?:1.7.0_80]
+	at java.io.InputStreamReader.read(InputStreamReader.java:184) ~[?:1.7.0_80]
+	at java.io.BufferedReader.fill(BufferedReader.java:154) ~[?:1.7.0_80]
+	at java.io.BufferedReader.readLine(BufferedReader.java:317) ~[?:1.7.0_80]
+	at java.io.BufferedReader.readLine(BufferedReader.java:382) ~[?:1.7.0_80]
+	at pr.run(SourceFile:81) [minecraft_server.1.8.1.jar:?]
+[02:16:36] [Server thread/INFO]: Default game type: CREATIVE
+[02:16:36] [Server thread/INFO]: Generating keypair
+[02:16:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:16:37] [Server thread/INFO]: Using epoll channel type
+[02:16:37] [Server thread/INFO]: Preparing level "world"
+[02:16:37] [Server thread/INFO]: Preparing start region for level 0
+[02:16:37] [Server thread/INFO]: Done (0.759s)! For help, type "help" or "?"
+[02:49:01] [User Authenticator #1/INFO]: UUID of player ashtell is bd14a421-25a1-4bd2-b689-ed609751c5f6
+[02:49:01] [Server thread/INFO]: ashtell[/73.65.194.70:45257] logged in with entity id 62 at (-213.45301510082993, 4.0, 747.1914551714983)
+[02:49:01] [Server thread/INFO]: ashtell joined the game
+[03:24:26] [Server thread/INFO]: ashtell lost connection: TranslatableComponent{key='disconnect.timeout', args=[], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[03:24:26] [Server thread/INFO]: ashtell left the game
+[16:57:08] [User Authenticator #2/INFO]: UUID of player ashtell is bd14a421-25a1-4bd2-b689-ed609751c5f6
+[16:57:08] [Server thread/INFO]: ashtell[/73.65.194.70:44112] logged in with entity id 6313540 at (-276.0376541914958, 5.0, 720.8686462099761)
+[16:57:08] [Server thread/INFO]: ashtell joined the game
+[21:55:20] [Server thread/INFO]: ashtell lost connection: TranslatableComponent{key='disconnect.timeout', args=[], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[21:55:20] [Server thread/INFO]: ashtell left the game
+[23:58:30] [User Authenticator #3/INFO]: UUID of player ashtell is bd14a421-25a1-4bd2-b689-ed609751c5f6
+[23:58:30] [Server thread/INFO]: ashtell[/73.65.194.70:59058] logged in with entity id 43299358 at (-285.49884928755927, 14.0, 727.2040156734612)
+[23:58:30] [Server thread/INFO]: ashtell joined the game
+[00:23:24] [Server thread/INFO]: ashtell lost connection: TranslatableComponent{key='disconnect.timeout', args=[], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[00:23:24] [Server thread/INFO]: ashtell left the game
+[02:41:30] [Server Shutdown Thread/INFO]: Stopping server
